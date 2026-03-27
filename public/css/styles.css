@@ -1,0 +1,92 @@
+.bodies{
+    background-image: url('/img/Bookshelf_Background.webp');
+    background-size: 1700px 1000px;
+    background-repeat: no-repeat;
+    background-color: #C2B280;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+
+
+.forms{
+    background-color: #E3D4B9;
+    border: 3px solid #E3D4B9;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.quoteHead{
+    background-color: #C2B280;
+    color: #4B3D2D;
+    text-align: center;
+    padding: 8px;
+}
+
+.optionPadding{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+footer{
+    background-color: #8B5B29;
+    color: #E3D4B9;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.modal-header{
+    background-color: #8B5B29;
+    color: #E3D4B9;
+}
+
+.modal-body{
+    background-color: #E3D4B9;
+    color: #4B3D2D;
+}
+
+.modalCatText{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.buttonCustom {
+  background-color: #E3D4B9;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 12px;
+  line-height: 36px;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+}
+
+.buttonCustom:hover {
+  background-color: #C2B280;
+}
+
+.buttonCustom:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
